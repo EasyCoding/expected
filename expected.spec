@@ -1,6 +1,6 @@
 Name: expected
 Version: 1.0.0
-Release: 1%{?dist}
+Release: 2%{?dist}
 
 License: CC0
 Summary: C++11/14/17 std::expected with functional-style extensions
@@ -58,5 +58,8 @@ popd
 %{_datadir}/cmake/tl-%{name}
 
 %changelog
+* Tue Jan 28 2020 Fedora Release Engineering <releng@fedoraproject.org> - 1.0.0-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
+
 * Mon Jan 06 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 1.0.0-1
 - Initial SPEC release.
